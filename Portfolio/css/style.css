@@ -1,0 +1,110 @@
+/* Fonts */
+@font-face {
+  src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+  font-family: Regular;
+}
+@font-face {
+  src: url(../font/Open_Sans/OpenSans-Bold.ttf);
+  font-family: Bold;
+}
+@font-face {
+  src: url(../font/Open_Sans/OpenSans-Light.ttf);
+  font-family: Light;
+}
+/*
+@font-face {
+  src: url(font/Open_Sans/OpenSans-Regular.ttf),
+      url(font/Open_Sans/OpenSans-Bold.ttf),
+      url(font/Open_Sans/OpenSans-Light.ttf);
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+header#top {
+  background: #202020;
+  width: 100%;
+  height: 55px;
+}
+header#top h2 {
+  font-size: 25px;
+  font-family: Bold;
+  color: #fff;
+  float: left;
+  margin: 10px;
+}
+header#top ul li {
+  list-style: none;
+}
+header#top ul li a {
+  font-family: Light;
+  color: #fff;
+  text-decoration: none;
+  float: right;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: #fff;
+  margin: 10px;
+  padding: 5px;
+}
+header#top ul li a:hover {
+  color: #E10203;
+}
+main#middle {
+  background-image: url("../img/bg4.jpg");
+  width: 100%;
+  height: 547px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -5;
+}
+main#middle section.profile-circle {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%);
+}
+main#middle section.profile-circle img {
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 100%;
+}
+main#middle section.text {
+  font-family: Light;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+}
+main#middle section.button-p {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  transform: translateY(-35%);
+}
+main#middle section.button-p button {
+  border-radius: 100px;
+  border-style: none;
+  padding: 10px;
+}
+main#middle section.button-p button a {
+  text-decoration: none;
+  color: #000;
+}
+main#middle section.button-p button a:hover {
+color: #E10203;
+}
+footer#bottom {
+  background: #202020;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+}
+footer#bottom h2 {
+  font-size: 20px;
+  font-family: Bold;
+  color: #fff;
+}
