@@ -1,0 +1,38 @@
+< convert menu bar >
+
+^ columns
+* column one
+  * add hamburger bar & input checkbox
+    * link by 'for = toggle'
+* column two
+  * list menu items
+    * add anchor/links
+
+^ display for website
+* column one
+  * display as none
+* column two
+  * display media tool
+    * menu bar
+      * add label & display as block
+      * add cursor as pointer
+    * menu items
+      * menu
+        * text-align: center
+        * width: 100%
+      * menu a
+        * display: block
+        * border: 1px solid black
+        * margin: 0
+
+^ revisit display
+* menu items
+  * display as none
+* toggle:checked + .menu {
+  * display: block;
+}
+* label
+  * add width px
+  * float to right
+* menu a
+  * clear to right
