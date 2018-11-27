@@ -1,0 +1,13 @@
+form {
+  display: table;
+  color: #000;
+  padding: 15px;
+  background-color: #ff0000;
+  border: solid 2px #000;
+}
+.row label {
+  display: table-cell;
+}
+.row input {
+  display: table-cell;
+}

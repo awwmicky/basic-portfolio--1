@@ -26,7 +26,6 @@ header {
 header h1 {
   font-size: 25px;
   font-family: Bold;
-
   margin: 10px;
 }
 header ul {
@@ -51,11 +50,15 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 465px;
   display: flex;
   flex-direction: column;
-  height: 500px;
   justify-content: space-around;
   text-align: center;
+}
+main img {
+  width: 200px;
+  height: 200px;
 }
 .profile-circle {
   border-style: solid;
@@ -82,19 +85,19 @@ footer {
   background: #202020;
   text-align: center;
 }
+footer p {
+  font-size: 20px;
+  font-family: Bold;
+  color: #fff;
+}
 footer ul {
+  padding: 5px 0px 5px 0px;
   display: flex;
   justify-content: center;
-  padding: 20px;
   list-style: none;
 }
 footer img {
   width: 20px;
   height: 20px;
   margin: 0px 10px 0px 10px;
-}
-footer p {
-  font-size: 20px;
-  font-family: Bold;
-  color: #fff;
 }
